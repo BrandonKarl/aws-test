@@ -3,9 +3,9 @@ import axios from 'axios'
 const app = express()
 app.get('/', async (req, res) => {
   const user = {
-    firstName: "test2",
+    firstName: "test22",
     lastName: "test3",
-    email: "omg@gmail.com",
+    email: "omg22@gmail.com",
     password: "password"
   }
   const res2 = await axios.post('https://pelycan-backend.herokuapp.com/api/signup', user)
