@@ -1,4 +1,5 @@
-const express = require('express')
+import express from 'express'
+const axios = require('axios')
 const app = express()
 app.get('/', (req, res) => {
   res.send('HEY! IT WORKED!!! EZ DEPLOY')
