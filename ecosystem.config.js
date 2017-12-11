@@ -2,7 +2,7 @@ module.exports = {
   apps: [{
     name: 'tutorial-2',
     script: './index.js',
-    "next_gen_js": true
+    "exec_interpreter": "./node_modules/.bin/babel-node",
   }],
   deploy: {
     production: {
