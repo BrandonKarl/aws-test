@@ -20,6 +20,7 @@
   "homepage": "https://github.com/BrandonKarl/aws-test#readme",
   "dependencies": {
     "axios": "^0.17.1",
+    "babel-cli": "^6.26.0",
     "express": "^4.16.2"
   },
   "devDependencies": {
